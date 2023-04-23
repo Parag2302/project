@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PG Vocab</title>
+    <link rel="stylesheet" href="project.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link rel="icon" type="image/x-icon" href="/Dictionary/images/illustration-man-laptop-flags.webp">
+<body >
+
+    <!--navigation-->
+    <nav>
+         <li id="li">
+              <ul class="dropdown">
+                    <li><a href="scramble.html" title="game"><i class="ri-gamepad-line"></i></a></li>
+                    <li><a href="word.html" title="word of the day"><i class="ri-file-word-line"></i></a></li>
+                    <li><a href="about.html" title="about"><i class="ri-book-open-line"></i></a></li>
+                    
+              </ul>
+         </li>
+    </nav>
+    
+    
+    <!--heading-->
+    <div class="image">
+        <header> Improve  your  Vocabulary...</header>
+    </div>
+
+    <div class="wrapper">
+
+        <!--search bar-->
+    <div class="searchbar">
+            <button type="submit" id="search-button"><i class="ri-search-2-line" id="sc"></i></button>
+            <input type="text" placeholder="Search your word" required spellcheck="false" autocomplete="off">
+            <button type="reset" id="c"><i class="ri-close-fill"></i></button>
+       
+    </div>
+
+    <div class="info-text"></div>
+
+    <!--word meaning-->
+    <ul>
+        <li class="word">
+            <div class="details">
+              <p>__</p>
+              <span>___</span>
+            </div>
+            <i class="ri-volume-up-fill" id="vol"></i> <!--icon-->
+          </li>
+    </ul>
+
+    <!--additional block-->
+    <div class="content">
+                <div class="details" id="Meaning">
+                        <p>Meaning</p>
+                        <span id="meaning-id">___</span>
+                </div>
+            
+                <div class="details" id="Example">
+                        <p>Example</p>
+                        <span id="example-id">___</span>
+                </div>
+                
+               <div class="details" >
+                    <p>Synonyms</p>
+                    <span id="synonyms">___</span>
+               </div>
+            
+                <div class="details" >
+                        <p>Antonyms</p>
+                        <span id="antonyms">___</span>
+                    </div>
+    </div>
+    </div>
+    
+   <script src="./js/project.js"></script>
+</body>
+</html>

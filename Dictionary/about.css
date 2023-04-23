@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Dangrek&family=Poppins:ital,wght@0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,900&family=Shantell+Sans:ital,wght@0,300;1,300&family=Ubuntu:wght@300;400&display=swap');
+
+        body{
+            
+            
+            background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(https://static.vecteezy.com/system/resources/previews/002/099/717/original/mountain-beautiful-landscape-background-design-illustration-free-vector.jpg);
+            min-height:100%;
+            padding: 1%;
+            background-repeat: no-repeat;            
+           
+        }
+        h1{
+            
+            text-align: center;
+            font-size: xx-large;
+            font-family: 'Shantell Sans', cursive;
+            padding:3%;
+            margin: auto; 
+            color: aliceblue;
+             
+        }
+        h3{
+            text-align: center;
+            font-family: 'Shantell Sans', cursive;
+            font-size:x-large;
+            margin-top: 70px;
+            color: aliceblue;
+        }
+        .main{
+           font-size: 20px;
+           text-align: center;
+           color: aliceblue;
+           
+           margin:3% 2%;
+        }
+        ul li i{
+            font-size: 50px;
+            color: aliceblue;
+          
+        }
+        .tech{
+            list-style-type: none;
+            
+        }
+
+        ul li i:hover{
+            cursor: pointer;
+        }
+
+        .tech ul{
+            list-style-type: none;
+            margin: auto;
+           
+            max-width: fit-content;
+         
+        }
+
+        .tech li{
+            display: inline-block;
+            margin-inline:20px;
+            padding-inline: 20px;
+            color: aliceblue;
+           align-items: center;
+        }
+        .det li{
+            font-size: large;
+            color: aliceblue;
+        
+            display: inline;
+            margin: 50px;
+        }
+
+        .det{
+            margin: auto;
+            column-gap: 10px;
+            max-width: fit-content;
+            color: aliceblue;
+          
+        }
